@@ -23,7 +23,38 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29ce3d8f-c34c-4774-a5ad-d60381224bde" name="Changes" comment="" />
+    <list default="true" id="29ce3d8f-c34c-4774-a5ad-d60381224bde" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/callback.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/callback.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart.uvguix.81301" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart.uvguix.81301" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart.uvoptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart.uvprojx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart/callback.crf" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart/callback.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart/callback.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart/callback.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart/main.crf" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart/main.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart/main.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart/main.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart/stm32f4xx_it.crf" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart/stm32f4xx_it.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart/stm32f4xx_it.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart/stm32f4xx_it.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart/uart.axf" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart/uart.axf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart/uart.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart/uart.build_log.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart/uart.hex" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart/uart.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart/uart.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart/uart.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart/uart.lnp" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart/uart.lnp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart/uart.map" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart/uart.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart/uart_uart.dep" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart/uart_uart.dep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart/usart.crf" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart/usart.crf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/uart/usart.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/uart/usart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uart.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/uart.ioc" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +63,9 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-MinGW-STM32" />
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -43,30 +77,33 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2muvk0AasHzTp9CEO2gqk1uTGmb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "OpenOCD Download & Run.uart.elf.executor": "Run",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.advertisement.text.overridden": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "E:/RM/projects/uart",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;OpenOCD Download &amp; Run.uart.elf.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.advertisement.text.overridden&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/RM/projects/uart&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="uart.elf" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="uart" TARGET_NAME="uart.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="uart" RUN_TARGET_NAME="uart.elf">
       <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="E:\RM\STlink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
@@ -91,8 +128,18 @@
       <workItem from="1728129548416" duration="2193000" />
       <workItem from="1728286967100" duration="549000" />
       <workItem from="1728374215994" duration="21000" />
-      <workItem from="1728384328516" duration="5871000" />
+      <workItem from="1728384328516" duration="7251000" />
+      <workItem from="1728391838099" duration="989000" />
     </task>
+    <task id="LOCAL-00001" summary="UART转发">
+      <option name="closed" value="true" />
+      <created>1728390571784</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728390571784</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,5 +149,55 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UART转发" />
+    <option name="LAST_COMMIT_MESSAGE" value="UART转发" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

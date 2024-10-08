@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "dma.h"
 #include "gpio.h"
 #include "usart.h"
 
@@ -45,7 +46,7 @@
 
 /* USER CODE BEGIN PV */
 uint8_t rx_msg[] = "RoboMaster";
-uint8_t tx_buff[2];
+uint8_t tx_buff[10];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -86,6 +87,7 @@ int main(void) {
 
     /* Initialize all configured peripherals */
     MX_GPIO_Init();
+    MX_DMA_Init();
     MX_USART6_UART_Init();
     /* USER CODE BEGIN 2 */
     HAL_GPIO_WritePin(LED_R_GPIO_Port, LED_R_Pin, GPIO_PIN_RESET);
@@ -97,7 +99,9 @@ int main(void) {
     while (1) {
         //HAL_UART_Transmit_IT(&huart6, rx_msg, sizeof(rx_msg));
         //HAL_Delay(2000);
-        HAL_UART_Receive_IT(&huart6, tx_buff, 2);
+        HAL_UART_Receive_DMA(&huart6, tx_buff, 10);
+        // HAL_UART_Transmit_DMA(&huart6, rx_msg, sizeof(rx_msg));
+        // HAL_Delay(1000);
         /* USER CODE END WHILE */
 
         /* USER CODE BEGIN 3 */
