@@ -99,9 +99,9 @@ int main(void) {
     while (1) {
         //HAL_UART_Transmit_IT(&huart6, rx_msg, sizeof(rx_msg));
         //HAL_Delay(2000);
-        HAL_UART_Receive_DMA(&huart6, tx_buff, 10);
-        // HAL_UART_Transmit_DMA(&huart6, rx_msg, sizeof(rx_msg));
-        // HAL_Delay(1000);
+        // HAL_UART_Receive_DMA(&huart6, tx_buff, 10);
+        HAL_UART_Transmit_DMA(&huart6, rx_msg, sizeof(rx_msg));
+        HAL_Delay(1000);
         /* USER CODE END WHILE */
 
         /* USER CODE BEGIN 3 */
